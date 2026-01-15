@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Caso del Espía Digital - Cybersecurity Toolkit
+# 🕵️‍♂️ Caso del Espía Digital - Kit de herramientas de ciberseguridad
 
 Este repositorio contiene una colección de herramientas desarrolladas en **Python** para el aprendizaje y la práctica del **hacking ético**, la informática forense y la seguridad de la información.
 
@@ -8,22 +8,21 @@ Este repositorio contiene una colección de herramientas desarrolladas en **Pyth
 ---
 
 ## 📂 Contenido del Proyecto
-El toolkit está dividido en 5 módulos especializados:
 
-1. **1_Esteganografía:** Técnicas para ocultar mensajes secretos dentro de archivos de imagen.
-2. **2_Generador_Datos:** Herramientas para la creación de identidades y datos de prueba.
-3. **3_Criptografía:** Scripts diseñados para el cifrado y descifrado de información.
-4. **4_Escaneo_Red:** Auditoría de red local para identificar dispositivos activos mediante el comando ping.
-5. **5_Forense_Fotos:** Extracción de metadatos EXIF (coordenadas GPS, fecha, modelo de cámara) de archivos fotográficos.
+El kit de herramientas está dividido en 5 módulos especializados:
 
----
-
-## 🛠️ Instalación y Requisitos
-
-Para utilizar estas herramientas, necesitas tener instalado **Python 3** en tu sistema. Puedes descargarlo en [python.org](https://www.python.org/).
-
-### 📦 Librerías Necesarias
-Este proyecto requiere librerías externas para el procesamiento de imágenes y el análisis de red. Instálalas ejecutando el siguiente comando en tu terminal:
-
-```bash
-pip install Pillow scapy stepic
+```text
+Caso del Espía Digital/
+├── 📁 1_Esteganografia/
+│   ├── crear_proyecto.py       (Script de automatización)
+│   ├── descifrar_secreto.py    (Técnicas para ocultar mensajes secretos en imágenes)
+│   └── imagen.png              (Archivo de imagen de prueba)
+├── 📁 2_Generador_Datos/
+│   └── identidad_falsa.py      (Herramientas para la creación de identidades y datos de prueba)
+├── 📁 3_Criptografia/
+│   └── encriptador.py          (Scripts diseñados para el cifrado y descifrado de información)
+├── 📁 4_Escaneo_Red/
+│   └── escaner_red.py          (Auditoría de red local para identificar dispositivos activos mediante ping)
+├── 📁 5_Forense_Fotos/
+│   └── info_foto.py            (Extracción de metadatos EXIF: GPS, fecha, modelo de cámara)
+└── 📄 menu_principal.py         (Lanzador central de todo el toolkit)
