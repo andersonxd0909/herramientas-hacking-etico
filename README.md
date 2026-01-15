@@ -26,3 +26,17 @@ Caso del Espía Digital/
 ├── 📁 5_Forense_Fotos/
 │   └── info_foto.py            (Extracción de metadatos EXIF: GPS, fecha, modelo de cámara)
 └── 📄 menu_principal.py         (Lanzador central de todo el toolkit)
+
+🛠️ Instalación y requisitos
+Para utilizar estas herramientas, necesitas tener instalado Python 3 en tu sistema. Puedes descargarlo en python.org.
+
+📦 Librerías Necesarias
+Este proyecto requiere librerías externas para el procesamiento de imágenes y el análisis de red. Instálalas ejecutando el siguiente comando en tu terminal:
+
+Bash
+
+pip install Pillow scapy stepic
+⚖️ Licencia
+Este proyecto utiliza la licencia CC BY-NC-SA 4.0. ESTÁ PROHIBIDA LA VENTA O USO COMERCIAL DE ESTE SOFTWARE.
+
+Desarrollado por Anderson - 2026.
